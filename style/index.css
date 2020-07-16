@@ -51,7 +51,7 @@ table {
 
 h1 {
 	text-align: center;
-	font-size: 2.8rem;
+	font-size: 2.87rem;
 	font-style: italic;
 	margin-bottom: 1px;
 }
@@ -69,6 +69,14 @@ h1 {
   
 } */
  
+body {
+	font-family: Arial;
+	color: #272a2b;
+}
+
+h1 {
+	color: black;
+}
 nav ul {
 display: flex; 
 justify-content: center;
@@ -116,5 +124,38 @@ margin: 4px;
 }
 
 .grayButton:hover, .button-slanted-div2:hover {
-	border: solid 2px gray;
+	border: solid 2px #d5dce6;
 }
+
+button:visited {
+	border: solid 2px pink;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+h2 {
+	font-size: 2.9rem;
+	margin: 12px;
+	/*text-align: center;*/
+	color: #d9d9de;
+	font-family: 'Caveat', cursive;
+	-ms-transform: skewX(10deg);
+	-webkit-transform: skewX(10deg);
+	transform: skewX(10deg);
+	opacity: 0.4;
+	border-bottom: 1px solid #f6e1f7;
+	width: 375px;
+	text-shadow: 2px 2px darkgray;
+	
+}
+
+.h2words {
+	display: flex; 
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
