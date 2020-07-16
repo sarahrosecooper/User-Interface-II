@@ -80,4 +80,29 @@ margin: 4px;
 
  button {
 	 padding: 10px 20px;
+	 background-color: #fff2f9;
+	 font-style: italic;
+	 border: none;
  }
+
+ .button-slanted-div {
+	/*-ms-transform: skewX(-20deg);
+	-webkit-transform: skewX(-20deg);
+	transform: skewX(-20deg);
+  }*/
+
+  -ms-transform: skewX(10deg);
+  -webkit-transform: skewX(10deg);
+  transform: skewX(10deg);
+}
+
+.button-slanted-div2 {
+	-ms-transform: skewX(-20deg);
+	-webkit-transform: skewX(-20deg);
+	transform: skewX(-20deg);
+	font-style: normal;
+}
+
+.noItalic {
+	font-style: normal;
+}
