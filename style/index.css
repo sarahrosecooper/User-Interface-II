@@ -106,3 +106,15 @@ margin: 4px;
 .noItalic {
 	font-style: normal;
 }
+
+.button-slanted-div:hover {
+	border: solid 2px black;
+}
+
+#blackButton:hover {
+	border: solid 2px black;
+}
+
+.grayButton:hover, .button-slanted-div2:hover {
+	border: solid 2px gray;
+}
