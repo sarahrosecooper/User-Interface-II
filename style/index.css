@@ -104,8 +104,11 @@ a {
 	/*
 	justify-content: center; */ 
 	align-items: space-evenly;
-	width: 100px;
+	width: 80px;
 	padding: 10px;
+	 background-color: #fff2f9;
+	 font-style: italic;
+	 margin: 5px;
 }
 
 .help {
@@ -119,26 +122,9 @@ a {
 
 
 .h2Text {
-	
 	max-width: 100%
 }
 
-/*p {
-	display: flex;
-	justify-content: space-around;
-	border: 1px solid red;
-}
-	/*display: flex;
-	justify-content: center;
-	align-content: center;
-	align-items: space-evenly;
-	width: 40%;
-	padding: 10px;
-	/*display: flex;
-	justify-content: center;
-	align-items: space-around;
-	width: 50%;
-}
 /*nav ul {
 display: flex; 
 justify-content: center;
@@ -154,13 +140,12 @@ margin: 4px;
 	 background-color: #fff2f9;
 	 font-style: italic;
 	 border: none;*/
- }
-
  
- .button-slanted-div {
-	-ms-transform: skewX(-20deg);
-	-webkit-transform: skewX(-20deg);
-	transform: skewX(-20deg);
+
+ .homeStyle {
+	-ms-transform: skewX(10deg);
+  -webkit-transform: skewX(10deg);
+  transform: skewX(10deg);
   }
 
   /*-ms-transform: skewX(10deg);
@@ -174,7 +159,7 @@ margin: 4px;
 	transform: skewX(-20deg);
 	font-style: normal;
 }
-
+*/
 .noItalic {
 	font-style: normal;
 }
@@ -200,11 +185,11 @@ a {
 	color: black;
 }
 
-h2 {
+h2 { /*
 	font-size: 2.9rem;
 	margin: 12px;
 	/*text-align: center;*/
-	color: #d9d9de;
+	/*color: #d9d9de;
 	font-family: 'Caveat', cursive;
 	-ms-transform: skewX(10deg);
 	-webkit-transform: skewX(10deg);
@@ -212,7 +197,7 @@ h2 {
 	opacity: 0.4;
 	border-bottom: 1px solid #f6e1f7;
 	width: 375px;
-	text-shadow: 2px 2px darkgray;
+	text-shadow: 2px 2px darkgray;*/
 	
 }
 
