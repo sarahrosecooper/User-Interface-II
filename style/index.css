@@ -74,13 +74,6 @@ body {
 	color: #272a2b;
 }
 
-header {
-	/*border: 1px solid red;
-	/*display: block;
-	/*flex-direction: row;
-	justify-content: center;
-	align-items: center;*/
-}
 h1 {
 	/*border: 1px solid red;*/
 	display: flex;
@@ -89,8 +82,6 @@ h1 {
 	justify-content: space-between;
 	align-items: center;
 	color: black;
-	/*display: flex;
-	justify-content: space-evenly;*/
 }
 
 .section {
@@ -100,9 +91,7 @@ h1 {
 	
 }
 
-a {
-	/*
-	justify-content: center; */ 
+a { 
 	align-items: space-evenly;
 	width: 80px;
 	padding: 10px;
@@ -124,34 +113,13 @@ a {
 .h2Text {
 	max-width: 100%
 }
-
-/*nav ul {
-display: flex; 
-justify-content: center;
- } */
-
- /*nav li {
-margin: 4px;
- }
-
- /*
- button {
-	 padding: 10px 20px;
-	 background-color: #fff2f9;
-	 font-style: italic;
-	 border: none;*/
  
-
  .homeStyle {
 	-ms-transform: skewX(10deg);
   -webkit-transform: skewX(10deg);
   transform: skewX(10deg);
+  font-style: italic;
   }
-
-  /*-ms-transform: skewX(10deg);
-  -webkit-transform: skewX(10deg);
-  transform: skewX(10deg);
-}*/
 
 .button-slanted-div2 {
 	-ms-transform: skewX(-20deg);
@@ -159,7 +127,7 @@ margin: 4px;
 	transform: skewX(-20deg);
 	font-style: normal;
 }
-*/
+
 .noItalic {
 	font-style: normal;
 }
@@ -168,7 +136,7 @@ margin: 4px;
 	border: solid 2px black;
 }
 
-#blackButton:hover {
+.blackButton:hover {
 	border: solid 2px black;
 }
 
@@ -185,28 +153,18 @@ a {
 	color: black;
 }
 
-h2 { /*
-	font-size: 2.9rem;
-	margin: 12px;
-	/*text-align: center;*/
-	/*color: #d9d9de;
-	font-family: 'Caveat', cursive;
-	-ms-transform: skewX(10deg);
-	-webkit-transform: skewX(10deg);
-	transform: skewX(10deg);
-	opacity: 0.4;
-	border-bottom: 1px solid #f6e1f7;
-	width: 375px;
-	text-shadow: 2px 2px darkgray;*/
-	
-}
-
 .h2words {
+	font-size: 2.9rem;
 	display: flex; 
 	justify-content: center;
 	align-content: center;
 	align-items: center;
+	color: #d9d9de;
 	border: 1px solid red;
+	font-family: 'Caveat', cursive;
+	opacity: 0.4;
+	border-bottom: 1px solid #f6e1f7;
+	text-shadow: 2px 2px darkgray;
 }
 
 .h2text { 
@@ -218,28 +176,7 @@ h2 { /*
 .text-example { display: flex; align-items: center;
 	justify-content: center; flex-direction: row; width: 100; 
 	border: 1px solid red; text-align: center;}
-/*portfolio {
-	display: inline-block;
-	
-}
-/* main p {
-	text-align: center;
-	display: flex; 
-	flex-direction: row;
-	justify-content: center;
-	align-content: center;
-	max-width: 500px;
-}
 
-p {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-content: center;
-	text-align: center;
-	margin: auto 0;
-}
- */
 .keyboard {
 	border: 1px solid red;
 	object-fit: cover;
@@ -258,7 +195,6 @@ p {
   /* Create four equal columns that sits next to each other */
   .column {
 	flex: 25%;
-	/* max-width: 25%; */
 	padding: 0 4px;
 	display: flex;
 	justify-content: space-between;
@@ -274,22 +210,6 @@ p {
 	 margin: 2px; 
   }
 
-/*
-.portfolioPreview {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	padding: 5px;
-	justify-content: space-evenly;
-	max-width: 20%;
-	max-height: 20%;
-}
-
-.rose {
-	height: 100px;
-	width: 100px;
-}
-*/
 .portfolioText {
 	margin: 0 auto;
 	width: 500px;
@@ -300,22 +220,35 @@ footer {
 	background-color:#fff2f9;
 	margin-top: 17px;
 	padding: 20px;
-	border: 1px solid red;
+	
 }
 
-
-
-footer button:hover {
+footer a {
+	
+	padding: 25px;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 3px;
+	width: 150px;
+	height: 40px;
+	padding: 10px;
+	
+}
+footer a:hover {
 	text-decoration: underline;
+	color: green;
+	text-decoration: none;
+	font-style: normal;
 }
 
 .whiteBorder {
 	margin: 0 auto;
-	margin-top: 4px;
-	margin-bottom: 3px;
+	margin-top: 10px;
+	margin-bottom: 4px;
 	width: 150px;
 	height: 40px;
-	border: 1px solid red;
+	color: white;
+	border: 4px solid pink;
 	padding: 10px;
 }
 
