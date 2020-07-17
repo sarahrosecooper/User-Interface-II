@@ -74,13 +74,19 @@ body {
 	color: #272a2b;
 }
 
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
 h1 {
 	color: black;
 }
-nav ul {
+/*nav ul {
 display: flex; 
 justify-content: center;
- }
+ } */
 
  nav li {
 margin: 4px;
