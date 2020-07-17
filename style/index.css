@@ -165,7 +165,7 @@ a {
 
 #images{
 	text-align:center;
-	margin: 20px;
+	margin: 9.9px;
 }
 
 .h2text { 
@@ -192,6 +192,13 @@ a {
 	flex-wrap: nowrap;
 	padding: 0 4px;
   }
+
+.portfolioImage {
+	height: 300px;
+	width: 400px;
+	margin: 0 auto;
+}
+  
   
   /* Create four equal columns that sits next to each other */
   .column {
@@ -216,6 +223,35 @@ a {
 	width: 500px;
 	border: 1px solid red;
 }
+
+.one{
+	border: 1x solid black;
+	margin-right: 10px;
+  }
+  .two{
+	border: 1px solid black;
+	margin-right: 10px;
+  }
+
+  .three{
+	border: 1px solid lightpink;
+  }
+
+  
+  .box{
+	width: 30px;
+  }
+  
+  .container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 400px;
+	border: 2px solid lightpink;
+	justify-content: space-between;
+	margin: 4px;
+  }
+
 
 footer {
 	background-color:#fff2f9;
