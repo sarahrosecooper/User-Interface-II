@@ -168,6 +168,12 @@ h2 {
   justify-content: flex-end;
   width: 300px;
 }
+
+
+/*portfolio {
+	display: inline-block;
+	
+}
 /* main p {
 	text-align: center;
 	display: flex; 
@@ -185,7 +191,7 @@ p {
 	text-align: center;
 	margin: auto 0;
 }
-*/ 
+ */
 .keyboard {
 	object-fit: cover;
 		width: 100%;
@@ -194,6 +200,46 @@ p {
 		opacity: 0.6;
 }
 
+.row {
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+	flex: 25%;
+	/* max-width: 25%; */
+	padding: 0 4px;
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 20%;
+	/* margin: 10%; */
+  }
+
+/*
+.portfolioPreview {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding: 5px;
+	justify-content: space-evenly;
+	max-width: 20%;
+	max-height: 20%;
+}
+
+.rose {
+	height: 100px;
+	width: 100px;
+}
+*
+
+*/
 footer {
 	background-color:#fff2f9;
 	margin-top: 17px;
