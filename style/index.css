@@ -83,6 +83,7 @@ a {
 	 background-color: #fff2f9;
 	 font-style: italic;
 	 margin: 5px;
+	 text-align: center;
 }
 
 .help {
@@ -103,6 +104,7 @@ a {
   -webkit-transform: skewX(10deg);
   transform: skewX(10deg);
   font-style: italic;
+  padding: 10px;
   }
 
 .button-slanted-div2 {
@@ -110,10 +112,12 @@ a {
 	-webkit-transform: skewX(-20deg);
 	transform: skewX(-20deg);
 	font-style: normal;
+	padding: 8px;
 }
 
 .noItalic {
 	font-style: normal;
+	padding: 8px;
 }
 
 .button-slanted-div:hover {
@@ -135,6 +139,7 @@ button:visited {
 a {
 	text-decoration: none;
 	color: black;
+	padding: 0px;
 }
 
 .h2words {
@@ -227,6 +232,7 @@ a {
 
   .three{
 	border: 1px solid lightpink;
+	min-width: 500px;
   }
 
   
@@ -244,6 +250,15 @@ a {
 	margin: 4px;
   }
 
+  .center {
+	  text-align: center;
+	  min-width: 10%;
+  }
+  .promise {
+	  height: 60%;
+	  min-width: 83%;
+	  border-radius: 10px;
+  }
 
 footer {
 	background-color:#fff2f9;
@@ -276,11 +291,11 @@ footer a:hover {
 	margin-bottom: 4px;
 	width: 150px;
 	height: 40px;
-	color: white;
+	
 	border: 4px solid pink;
 	padding: 10px;
 }
 
 .whiteBorder:hover {
-	border: 1px solid black;
+	border: 2px solid black;
 }
