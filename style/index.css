@@ -154,6 +154,20 @@ a {
 	text-shadow: 2px 2px darkgray;
 }
 
+
+.git {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 35px; 
+	border: none;
+}
+
+#images{
+	text-align:center;
+	margin: 20px;
+}
+
 .h2text { 
 	display: flex;
 	justify-content: center;
