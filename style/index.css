@@ -264,9 +264,27 @@ a {
 	margin: 4px;
   }
 
+  .container p {
+	  margin-top: 20px;
+	  padding: 50px;
+	font-size: 1.4rem;
+	
+  }
+
   .center {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: space-around;
+	  font-size: 1.4rem;
 	  text-align: center;
 	  min-width: 10%;
+	  padding: 20px;
+	  font-style: italic;
+  }
+
+  .center img {
+	  /* justify-content: flex-end; */
+	  margin: 0 auto;
   }
   .promise {
 	  height: 60%;
