@@ -76,6 +76,9 @@ h1 {
 	color: black;
 }
 
+nav a {
+	font-size: 1.4rem;
+}
 .section {
 	display: flex;
 	justify-content: center;
@@ -93,6 +96,7 @@ a {
 
 .help p {
 	font-size: 1.4rem;
+	text-align: center;
 }
 .help {
 	margin: 0 auto;
@@ -278,7 +282,7 @@ footer {
 }
 
 footer a {
-	
+	font-size: 1.4rem;
 	padding: 25px;
 	margin: 0 auto;
 	margin-top: 15px;
