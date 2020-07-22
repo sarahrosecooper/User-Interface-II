@@ -49,9 +49,14 @@ table {
 	border-spacing: 0;
 }
 
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
 h1 {
 	text-align: center;
-	font-size: 2.87rem;
+	font-size: 5rem;
 	font-style: italic;
 	margin-bottom: 1px;
 }
@@ -86,6 +91,9 @@ a {
 	 text-align: center;
 }
 
+.help p {
+	font-size: 1.4rem;
+}
 .help {
 	margin: 0 auto;
 	margin-top: 4px;
@@ -93,7 +101,9 @@ a {
 	width: 500px;
 }
 
-
+h2 {
+	font-size: 4.7rem;
+}
 
 .h2Text {
 	max-width: 100%
@@ -298,4 +308,13 @@ footer a:hover {
 
 .whiteBorder:hover {
 	border: 2px solid black;
+}
+
+@media(max-width: 800px) {
+
+
+}
+
+@media(max-width:500px) {
+
 }
