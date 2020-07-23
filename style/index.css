@@ -65,7 +65,7 @@ html {
 h1 {
 	text-align: center;
 	font-size: 5rem;
-	font-style: italic;
+	font-style: italic; 
 	margin-bottom: 1px;
 }
  
@@ -80,7 +80,7 @@ body {
 }
 h1 {
 	/*border: 1px solid red;*/
-	display: flex;
+	display: flex;  
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -124,7 +124,7 @@ a {
 }
 
 h2 {
-	font-size: 4.7rem;
+	font-size: 4.7rem; 
 }
 
 .h2Text {
@@ -226,11 +226,6 @@ a {
 	width: 80%;
 }
 
-.row {
-	display: flex;
-	flex-wrap: nowrap;
-	/* padding: 0 4px; */
-  }
 
 .portfolioImage {
 	height: 300px;
@@ -242,10 +237,11 @@ a {
 	/* flex: 25%; */
 	/* padding: 0 4px; */
 	height: 350px;
-	display: flex;
+	display: flex; 
 	justify-content: space-around; 
 	margin-top: 8px;
   }
+
   
   .column img {
 	margin-top: 7px;
@@ -317,7 +313,7 @@ a {
   .column2 {
 	/* flex: 25%; */
 	/* padding: 0 4px; */
-	display: flex;
+	display: flex; 
 	justify-content: space-between;
 	margin-top: 8px;
 	font-size: 1.3rem;
@@ -384,48 +380,65 @@ footer a:hover {
 	max-width: 780px;
 	margin: 0 auto;
 }
-
 }
 
 @media(max-width:500px) {
-	
 	h1 {
-		font-size: 2.7rem;
-		font-style: italic;
-	}
-	h2 {
-			margin: 0 auto;
-			width: 60%;
-			font-size: 2.3rem;
+        font-size: 2.7rem;
+        font-style: italic;
+    }
+    
+    h2 {
+            margin: 0 auto;
+            width: 60%;
+            font-size: 2.3rem;
+        }
+		.section {
+			width: 84%;
+			margin-right: 10px;
+			flex-direction: column;
+		}
+	
+		a {
+			width: 200px;
 		}
 
-	.section {
-		width: 84%;
-		margin-right: 10px;
-		flex-direction: column;
+		.keyboard {
+			margin-top: 5px;
+			border: 1px solid black;
+			width: 100%;
+			height: 50%;
+		}
+	
+		.help p {
+		font-size: 1.4rem; 
+		text-align: justify;
+		width: 90%;
 	}
 
 	.help {
+		margin-top: 4px;
+		margin-bottom: 3px;
+		width: 70%;
+	}
+	
+	.column {
+		height: 100px;
+		display: flex; 
+		flex-wrap: wrap;
+		justify-content: space-around; 
+		margin-top: 8px;
+	}
 
-	}
-	a {
-		width: 200px;
-	}
-	.keyboard {
-		margin-top: 5px;
-		border: 1px solid black;
-		width: 100%;
-		height: 50%;
-	}
+	.column img {
+		margin-top: 7px;
+		width: 49%;
+		display: block; 
+		height: auto 
+	  }
 
-	.help p {
-	font-size: 1.4rem;
-	text-align: justify;
-	width: 90%;
-}
-.help {
-	margin-top: 4px;
-	margin-bottom: 3px;
-	width: 70%;
-}
+	  column > img {
+		flex: 0 50;
+	  }
+
 }
