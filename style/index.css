@@ -76,5 +76,31 @@ h1 {
 /* --------- NAV ---------- */
 
 nav {
-	border: 1px solid red;
+	width: 50%;
+	margin: 0 auto;
 }
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.7rem;
+	height: 30px;
+}
+
+nav li {
+	background: #fff2f9;
+	width: 25%;
+	height: 30px;
+	margin: 4px;
+	padding-top: 3px;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	margin: 2px;
+}
+
+
+
