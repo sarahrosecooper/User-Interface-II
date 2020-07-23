@@ -128,6 +128,7 @@ h3 {
 	margin-top: 10px;
 	width: 87vw;
 	height: 26vh;
+	margin-bottom: 10px;
 	
 }
 
@@ -140,22 +141,44 @@ h3 {
 
 /* MIDDLE CONTENT */
 
-#middle-content {
-	border: 1px solid red;
-	display: flex; 
-	flex-wrap: wrap;
+#middle-content-container {
+	margin-top: 20px;
 	margin: 0 auto;
-	margin-top: 10px;
+	width: 87vw;
+}
+.middle-content {
+	margin: 0 auto;
+	display: inline;
+	margin: 0 auto;
 	width: 87vw;
 } 
 
 
-#middle-content img { 
-	height: auto;
-	border: 1px solid red;
+.middle-content img { 
+	margin: 0 auto;
 	border-radius: 10px; 
-	width: 48%;
-	object-fit: cover; 
+	max-width: 24%;
+	object-fit: cover;  
 }
 
+/* FOOTER */
+ 
+footer {
+	 text-align: center;
+	 background: #fff2f9;
+	 height: 10%;
+	 font-size: 2rem;
+ }
 
+ footer a {
+	 text-decoration: none;
+	 color: black;
+	 padding: 1.3px;
+	 border-bottom: 2px dashed black;
+ }
+
+ footer a:hover {
+	 color: gray;
+	 border-bottom: 2px dashed gray;
+ }
+ 
