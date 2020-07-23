@@ -242,7 +242,7 @@ width: 100%;
 	width: 60px;
 } 
 
-/* BOTTOM CONTENT */
+/* BOTTOM CONTENT ABOUT PAGE */
 
 .bottom-content {
 	margin: 0 auto;
@@ -320,8 +320,18 @@ footer {
 	width: 50%;
  }
 
+ /* HEADER TWO */
  h2 {
 margin-top: 50px; }
+
+/* HEADER 3 */
+h3 {
+	margin: 0 auto;
+	text-align: center;
+	font-size: 2rem;
+	width: 200px;
+}
+
 
 /* ABOUT ABOUT PAGE */
 
@@ -331,44 +341,113 @@ margin-top: 50px; }
 	font-size: 1.7rem;
  }
 
-/* MIDDLE CONTENT PROJECTS PAGE */
-#projects-middle-content {
-	max-width: 100%;
+ /* TOP CONTENT CONTACT PAGE*/
+
+#top-content-contact > img {
+	border-radius: 16px; 
+	margin-left: 0px;
+	width: 100vw;
+	height: 200px;
+	object-fit: cover; 
+	}
+
+/*TOP CONTENT PROJECT PAGE*/
+.top-content-project img {
+	margin-bottom: 10px;
 }
 
-/* MIDDLE CONTENT CONTACT PAGE*/
+
+/*MIDDLE CONTENT*/
+#middle-content-container {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+}
+.middle-content {
+	margin:4px;
+	margin: 4px;
+	width: 100vw;
+} 
+
+.middle-content img { 
+	margin: 4px;
+	max-width: 43%; 
+}
+
+/* MIDDLE CONTENT ABOUT PAGE */
+#middle-content-container-about {
+	display: flex;
+	width: 85vw;
+	padding-top: 5px;
+	margin-right: 20px;
+}
+
+#middle-content-container-about img { -
+	border-radius: 10px; 
+	padding-bottom: 4px;
+	max-width: 20vw;
+	border-radius: 10px
+}
+
+/* MIDDLE CONTENT PROJECTS PAGE */
+#projects-middle-content {
+	margin-top: 10px;
+	margin: 0 auto;
+	/* flex-direction: column; */
+	display: flex;
+	font-size: 2rem;
+	height: 350px;
+	border: 1px solid red;
+	/* top:0;
+	bottom:0; */
+	overflow:auto; 
+	width: 85vw;
+}
+
+.projects-text {
+	font-size: 1.7rem;
+	width: 100%;
+	text-align: center;
+	font-style: italic;
+}
+
+#projects-middle-content img {
+width: 100%;
+}
+
+/*MIDDLE CONTENT CONTACT PAGE*/
+
 .contact-me {
 	display: flex;
 	flex-wrap: nowrap;
 	width: 100%;
-	margin: 0 auto;
 	justify-content: center;
-	padding-top: 10px;
+  font-size: 1.4rem;
+  margin-bottom: 40px;
 }
 
 .contact-me img {
-	width: 400px;
-
-}
-.contact-me {
-	margin-top: 0 auto;
-	padding: 60px;
-  font-size: 1.4rem;
-  
+	width: 80%;
 }
 
 .item {
-	height: 300px;
-	width: 400px;
-	margin: 0 auto;
+	height: 32px;
+	width: 60px;
 } 
+/* MIDDLE CONTENT PROJECTS PAGE */
+#projects-middle-content {
+	flex-direction: column; 
+}
 
- /* BOTTOM CONTENT */
+ /* BOTTOM CONTENT ABOUT PAGE */
 
  .adjectives {
-	max-width: 100%;
-	font-size: 1.4rem;
+	max-width: 70%;
+	font-size: 1rem;
 	color: #bf3b8a;
+	margin: 0 auto;
+	margin-right: 5px;
 }
 
 .bottom-content-flex img {
@@ -376,21 +455,14 @@ margin-top: 50px; }
 }
 
 .bottom-content-flex {
-	margin-right: 20px;
-	margin-left: 20px;
-	border: 1px red solid;
 	display: flex;
 	max-width: 100vw;
+	margin: 0 auto;
 }
 
 /* BOTTOM CONTENT PROJECTS PAGE */
 .projects-text {
 	margin-bottom: 20px;
-}
-
-.projects-middle-content img {
-	max-width: 89vw;
-
 }
  /* FOOTER */
 
