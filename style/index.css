@@ -173,12 +173,62 @@ h3, .about-me /*styled for ABOUT.HTML*/ {
 /* MIDDLE CONTENT ABOUT PAGE */
 
 #middle-content-container-about {
-	border: 1px solid red;
 	margin-top: 20px;
 	margin: 0 auto;
 	width: 80vw;
-	height: 100%;
+	
 }
+
+#middle-content-container-about img { 
+	margin: 0 auto;
+	border-radius: 10px; 
+	max-width: 24%;
+	object-fit: cover;
+}
+
+.emphasize-adjectives {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-style: italic;
+}
+
+/* MIDDLE CONTENT PROJECTS PAGE */
+#projects-middle-content {
+	display: flex;
+}
+
+/* BOTTOM CONTENT */
+
+.bottom-content {
+	margin: 0 auto;
+	width: 25vw;
+	height: 400px;
+	
+}
+
+.bottom-content-flex img {
+	margin: 0 auto;
+	margin-right: 20%;
+	border-radius: 10px;
+	max-width: 20%;
+	max-height: 80%;
+}
+
+.bottom-content-flex {
+	display: flex;
+	max-width: 87vw;
+}
+
+.adjectives {
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-left: 10%;
+	max-width: 43%;
+	text-align: center;
+	font-size: 2rem;
+	color: #bf3b8a;
+}
+
 /* FOOTER */
  
 footer {
@@ -203,8 +253,14 @@ footer {
 	 border-bottom: 2px dashed gray;
  }
  
+ /* --------- MEDIA 500PX -----------
+ -----------------------------------
+ ----------------------------------- */
+
  @media(max-width: 500px) {
 	
+	/* NAV */
+
 	nav li {
 		width: 70%;
  }
@@ -213,11 +269,43 @@ footer {
 	width: 50%;
  }
 
- footer {
-	 position: fixed;
-	 width: 100%;
-	 left: 0;
-	 bottom: 10px;
+/* ABOUT ABOUT PAGE */
+
+.about-me {
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 1.7rem;
  }
+
+
+ /* BOTTOM CONTENT */
+
+ .adjectives {
+	max-width: 100%;
+	font-size: 1.4rem;
+	color: #bf3b8a;
+}
+
+.bottom-content-flex img {
+	border-radius: 10px;
+}
+
+.bottom-content-flex {
+	margin-right: 20px;
+	margin-left: 20px;
+	border: 1px red solid;
+	display: flex;
+	max-width: 100vw;
+}
+
+ /* FOOTER */
+
+
+ footer {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 10px;
+}
 
 }
