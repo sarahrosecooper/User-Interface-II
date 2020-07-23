@@ -71,7 +71,7 @@ html {
 
 h1 {
 	text-align: center;
-	font-size: 3rem;
+	font-size: 7rem;
 	margin-bottom: 5px;
 }
 /* --------- NAV ---------- */
@@ -309,7 +309,7 @@ footer {
  /* --------- MEDIA 800PX -----------
  -----------------------------------
  ----------------------------------- */
-
+ @media(max-width: 800px) {
  /*---------- NAV -------------- */
  /* NAV */
 
@@ -329,6 +329,7 @@ nav ul {
  margin-top: 60px;
  flex-direction: column; 
 }
+
 nav {
 width: 50%;
 }
@@ -358,7 +359,6 @@ h3 {
 
 #top-content-contact > img {
 	margin-left: 30px;
-	margin-bottom: 10px;
 }
 
  /* MIDDLE CONTENT INDEX PAGE */
@@ -369,6 +369,7 @@ h3 {
 	flex-direction: column;
 	width: 80vw;
 }
+
 .middle-content {
 	margin:4px;
 	margin: 4px;
@@ -388,7 +389,7 @@ h3 {
 	margin-right: 20px;
 }
 
-#middle-content-container-about img { -
+#middle-content-container-about img { 
 	border-radius: 10px; 
 	padding-bottom: 4px;
 	max-width: 20vw;
@@ -403,6 +404,32 @@ h3 {
 	padding-top: 5px;
 }
 
+/* ---------- MIDDLE CONTENT PROJECTS PAGE --------- */
+
+#projects-middle-content {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin: 0 auto;
+	flex-direction: column; 
+	display: flex;
+	font-size: 2rem;
+	height: 350px;
+	border: 1px solid red;
+	width: 85vw;
+}
+
+.projects-text {
+	margin-top: 10px;
+	font-size: 2.3rem;
+	width: 100%;
+	text-align: center;
+	font-style: italic;
+}
+
+#projects-middle-content img {
+width: 100%;
+}
+
 /* BOTTOM CONTENT ABOUT PAGE -------------- */
 .bottom-content {
 	margin: 0 auto;
@@ -415,6 +442,7 @@ h3 {
 	margin-right: 10%;
 	max-width: 30%;
 }
+}
 
  /* --------- MEDIA 500PX -----------
  -----------------------------------
@@ -424,12 +452,17 @@ h3 {
 	
 	/* NAV */
 
+	h1 {
+		font-size: 4rem;
+		margin-bottom: 20px;
+	}
 	nav li {
 		width: 70%;
+		font-size: 2rem;
  }
 
  nav ul {
-	 margin-top: 50px;
+	 margin-top: 60px;
 	 flex-direction: column; 
  }
  nav {
@@ -438,7 +471,8 @@ h3 {
 
  /* HEADER TWO */
  h2 {
-margin-top: 50px; }
+margin-top: 60px;
+font-size: 3.5rem; }
 
 /* HEADER 3 */
 h3 {
@@ -595,3 +629,4 @@ footer {
 	left: 10;
 	bottom: 10px;
 }
+ }
