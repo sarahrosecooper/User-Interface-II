@@ -448,4 +448,21 @@ footer a:hover {
         flex: 0 50;
       }
 
-}
+	  .column2 {
+        height: 50%;
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: space-around; 
+        margin-top: 8px;
+    }
+
+    .column2 img {
+        margin-top: 7px;
+        width: 20%;
+        display: block; 
+        height: auto 
+      }
+
+      column > img {
+        flex: 0 50;
+      }
