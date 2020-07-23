@@ -119,7 +119,7 @@ h2 {
 /* ----------- HEADER 3 ------------------
 -------------- TOP CONTENT   ------------- */
 
-h3 {
+h3, .about-me /*styled for ABOUT.HTML*/ {
 	text-align: center;
 	font-size: 1.6rem;
 }
@@ -140,6 +140,14 @@ h3 {
 	object-fit: cover; 
 }
 
+/* TOP CONTENT ABOUT PAGE */
+
+.about-me {
+	margin-left: 250px;
+	margin-right: 250px;
+	font-size: 1.7rem;
+}
+}
 /* MIDDLE CONTENT */
 
 #middle-content-container {
@@ -162,6 +170,15 @@ h3 {
 	object-fit: cover;  
 }
 
+/* MIDDLE CONTENT ABOUT PAGE */
+
+#middle-content-container-about {
+	border: 1px solid red;
+	margin-top: 20px;
+	margin: 0 auto;
+	width: 80vw;
+	height: 100%;
+}
 /* FOOTER */
  
 footer {
