@@ -157,7 +157,7 @@ h3, .about-me /*styled for ABOUT.HTML*/ {
 	height: 400px;
 	 object-fit: cover;  
 }
-/* MIDDLE CONTENT */
+/* --------------MIDDLE CONTENT ------------------*/
 
 #middle-content-container {
 	margin-top: 20px;
@@ -300,6 +300,122 @@ footer {
 	 border-bottom: 2px dashed gray;
  }
  
+
+/*-----------------------------------------*
+--------------------------------------------
+--------------------------------------------
+---------------------------------------------
+ 
+ /* --------- MEDIA 800PX -----------
+ -----------------------------------
+ ----------------------------------- */
+
+ /*---------- NAV -------------- */
+ /* NAV */
+
+/* HEADER 1 */
+
+ h1 {
+	 font-size: 9rem;
+	 margin-bottom: 9px;
+	 }
+ 
+ nav li {
+	width: 80%;
+	font-size: 3rem;
+}
+
+nav ul {
+ margin-top: 60px;
+ flex-direction: column; 
+}
+nav {
+width: 50%;
+}
+
+/* HEADER TWO */
+
+h2 {
+	font-size: 6rem;
+	margin-top: 80px;
+}
+
+/* HEADER THREE */
+
+h3 {
+	font-size: 3rem;
+}
+
+/* TOP CONTENT ABOUT PAGE */
+.about-me {
+	margin: 0 auto;
+	font-size: 1.7rem;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+/* TOP CONTENT CONTACT PAGE */
+
+#top-content-contact > img {
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+ /* MIDDLE CONTENT INDEX PAGE */
+
+ #middle-content-container {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	width: 80vw;
+}
+.middle-content {
+	margin:4px;
+	margin: 4px;
+	width: 85vw;
+} 
+
+.middle-content img { 
+	margin: 4px;
+	max-width: 41%; 
+}
+
+/* MIDDLE CONTENT ABOUT PAGE */
+#middle-content-container-about {
+	display: flex;
+	width: 85vw;
+	padding-top: 5px;
+	margin-right: 20px;
+}
+
+#middle-content-container-about img { -
+	border-radius: 10px; 
+	padding-bottom: 4px;
+	max-width: 20vw;
+	border-radius: 10px
+}
+
+/* ------- MIDDLE CONTENT ABOUT PAGE -------- */
+#middle-content-container-about {
+	display: flex;
+	margin: 0 auto;
+	width: 81.5vw;
+	padding-top: 5px;
+}
+
+/* BOTTOM CONTENT ABOUT PAGE -------------- */
+.bottom-content {
+	margin: 0 auto;
+	width: 25vw;
+	height: 400px;
+	
+}
+
+.bottom-content-flex img {
+	margin-right: 10%;
+	max-width: 30%;
+}
+
  /* --------- MEDIA 500PX -----------
  -----------------------------------
  ----------------------------------- */
