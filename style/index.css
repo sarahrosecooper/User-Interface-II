@@ -449,7 +449,7 @@ footer a:hover {
       }
 
 	  .column2 {
-        height: 50%;
+        height: 20%;
         display: flex; 
         flex-wrap: wrap;
         justify-content: space-around; 
@@ -458,11 +458,22 @@ footer a:hover {
 
     .column2 img {
         margin-top: 7px;
-        width: 20%;
+        width: 23%;
         display: block; 
-        height: auto 
+        height: auto;
       }
-
-      column > img {
-        flex: 0 50;
-      }
+	  
+	  /* .center {
+		  border: 1px solid black;
+		  font-size: 1rem;
+		  text-align: center;
+		  padding-top: 10px;
+		  padding-left: 15px;
+		  width: 46%;
+	  } */
+/* 
+	  .promise {
+		  height: 50%;
+		  border: 1px solid red;
+	  } */
+	}
