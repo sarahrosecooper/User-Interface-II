@@ -58,3 +58,23 @@ html {
 	box-sizing: border-box;
 }
 
+/* MAIN CONTAINER */
+
+#mainContainer {
+	border: 1px solid red;
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/* -------HEADER-------- 1 */
+
+h1 {
+	text-align: center;
+	font-size: 3rem;
+}
+/* --------- NAV ---------- */
+
+nav {
+	border: 1px solid red;
+}
