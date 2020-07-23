@@ -229,7 +229,7 @@ a {
 .row {
 	display: flex;
 	flex-wrap: nowrap;
-	padding: 0 4px;
+	/* padding: 0 4px; */
   }
 
 .portfolioImage {
@@ -239,18 +239,21 @@ a {
 } 
   /* Create four equal columns that sits next to each other */
   .column {
-	flex: 25%;
-	padding: 0 4px;
+	/* flex: 25%; */
+	/* padding: 0 4px; */
+	height: 350px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around; 
 	margin-top: 8px;
   }
   
   .column img {
 	margin-top: 7px;
-	vertical-align: middle;
-	width: 18.4%;
-	 margin: 2px; 
+	/* vertical-align: middle; */
+	width: 24.5%;
+	max-width: 100%; 
+  display: block; 
+  height: auto 
   }
 
 .portfolioText {
@@ -386,21 +389,43 @@ footer a:hover {
 
 @media(max-width:500px) {
 	
+	h1 {
+		font-size: 2.7rem;
+		font-style: italic;
+	}
 	h2 {
 			margin: 0 auto;
 			width: 60%;
 			font-size: 2.3rem;
 		}
-	}
 
 	.section {
-		margin: 0 auto;
-		width: 50%;
-		border: 1px solid black;
+		width: 84%;
+		margin-right: 10px;
 		flex-direction: column;
 	}
-	/* nav {
+
+	.help {
+
+	}
+	a {
+		width: 200px;
+	}
+	.keyboard {
+		margin-top: 5px;
+		border: 1px solid black;
 		width: 100%;
-		margin-top: 20px;
-	} */
+		height: 50%;
+	}
+
+	.help p {
+	font-size: 1.4rem;
+	text-align: justify;
+	width: 90%;
+}
+.help {
+	margin-top: 4px;
+	margin-bottom: 3px;
+	width: 70%;
+}
 }
