@@ -173,23 +173,21 @@ h3, .about-me /*styled for ABOUT.HTML*/ {
 /* MIDDLE CONTENT ABOUT PAGE */
 
 #middle-content-container-about {
+	border: 1px solid red;
 	display: flex;
-	margin-top: 20px;
 	margin: 0 auto;
-	width: 80vw;
+	justify-content: flex-end;
+	margin-top: 20px;
+	width: 81.5vw;
 	padding-top: 50px;
-	padding-left: 50px;
-	padding-right: 50px;
 	
 }
 
 #middle-content-container-about img { 
-	display: flex;
-	margin: 0 auto;
+	border: 1px solid red;
 	border-radius: 10px; 
 	padding-bottom: 4px;
-	max-width: 37vw;
-	object-fit: cover;
+	max-width: 20vw;
 }
 
 .emphasize-adjectives {
@@ -205,11 +203,18 @@ h3, .about-me /*styled for ABOUT.HTML*/ {
 	display: flex;
 	font-size: 2rem;
 	height: 350px;
+	
+	top:0;
+	bottom:0;
+	overflow:auto;
 }
 
 .projects-text {
 	
 	font-size: 1.7rem;
+  top:0;
+  bottom:0;
+  overflow:auto;
 }
 
 #projects-middle-content img {
