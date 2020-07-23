@@ -147,6 +147,15 @@ h3, .about-me /*styled for ABOUT.HTML*/ {
 	margin-right: 250px;
 	font-size: 1.7rem;
 }
+
+/*TOP CONTENT CONTACT PAGE*/
+
+#top-content-contact > img {
+	border-radius: 16px; 
+	margin-left: 60px;
+	width: 89vw;
+	height: 400px;
+	 object-fit: cover;  
 }
 /* MIDDLE CONTENT */
 
@@ -173,27 +182,18 @@ h3, .about-me /*styled for ABOUT.HTML*/ {
 /* MIDDLE CONTENT ABOUT PAGE */
 
 #middle-content-container-about {
-	border: 1px solid red;
 	display: flex;
 	margin: 0 auto;
 	justify-content: flex-end;
-	margin-top: 20px;
 	width: 81.5vw;
-	padding-top: 50px;
-	
+	padding-top: 5px;
 }
 
-#middle-content-container-about img { 
-	border: 1px solid red;
+#middle-content-container-about img { -
 	border-radius: 10px; 
 	padding-bottom: 4px;
 	max-width: 20vw;
-}
-
-.emphasize-adjectives {
-	margin-top: 5px;
-	margin-bottom: 5px;
-	font-style: italic;
+	border-radius: 10px;
 }
 
 /* MIDDLE CONTENT PROJECTS PAGE */
@@ -203,7 +203,6 @@ h3, .about-me /*styled for ABOUT.HTML*/ {
 	display: flex;
 	font-size: 2rem;
 	height: 350px;
-	
 	top:0;
 	bottom:0;
 	overflow:auto;
@@ -261,6 +260,7 @@ width: 100%;
 .bottom-content-flex {
 	display: flex;
 	max-width: 87vw;
+	margin: 0 auto;
 }
 
 .adjectives {
@@ -270,7 +270,8 @@ width: 100%;
 	max-width: 43%;
 	text-align: center;
 	font-size: 2rem;
-	color: #bf3b8a;
+	color: #d685b6;
+	font-style: italic;
 }
 
 /* FOOTER */
