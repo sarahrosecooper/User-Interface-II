@@ -126,14 +126,14 @@ h3 {
 #top-content {
 	margin: 0 auto;
 	margin-top: 10px;
-	width: 87vw;
+	width: 80vw;
 	height: 26vh;
 	margin-bottom: 10px;
 	
 }
 
 #top-content img {
-	border-radius: 10px; 
+	border-radius: 16px; 
 	width: 100%;
 	height: 100%;
 	object-fit: cover; 
@@ -144,7 +144,7 @@ h3 {
 #middle-content-container {
 	margin-top: 20px;
 	margin: 0 auto;
-	width: 87vw;
+	width: 80vw;
 }
 .middle-content {
 	margin: 0 auto;
