@@ -199,21 +199,23 @@ h3, .about-me /*styled for ABOUT.HTML*/ {
 /* MIDDLE CONTENT PROJECTS PAGE */
 #projects-middle-content {
 	margin-top: 10px;
-	flex-direction: column;
+	margin: 0 auto;
+	/* flex-direction: column; */
 	display: flex;
 	font-size: 2rem;
 	height: 350px;
-	top:0;
-	bottom:0;
-	overflow:auto;
+	border: 1px solid red;
+	/* top:0;
+	bottom:0; */
+	overflow:auto; 
+	width: 85vw;
 }
 
 .projects-text {
-	
 	font-size: 1.7rem;
-  top:0;
-  bottom:0;
-  overflow:auto;
+	width: 100%;
+	text-align: center;
+	font-style: italic;
 }
 
 #projects-middle-content img {
@@ -236,8 +238,8 @@ width: 100%;
 }
 
 .item {
-	height: 70px;
-	width: 120px;
+	height: 32px;
+	width: 60px;
 } 
 
 /* BOTTOM CONTENT */
@@ -310,9 +312,16 @@ footer {
 		width: 70%;
  }
 
+ nav ul {
+	 margin-top: 50px;
+	 flex-direction: column; 
+ }
  nav {
 	width: 50%;
  }
+
+ h2 {
+margin-top: 50px; }
 
 /* ABOUT ABOUT PAGE */
 
@@ -387,10 +396,8 @@ footer {
 
 
  footer {
-	position: fixed;
 	width: 100%;
-	left: 0;
-	bottom: 10px;
+	
 }
 
 /* PROJECTS FOOTER */
